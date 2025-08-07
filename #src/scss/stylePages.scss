@@ -1,0 +1,101 @@
+.wrapper {
+    .main {
+        .container {
+            padding: 20px;
+
+            .item {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 40px;
+
+                .slider {
+                  .thumbnails {
+                    display: flex;
+                    flex-wrap: wrap;
+                  }
+                }
+
+                .text {
+
+                  .title {
+                    font-weight: 600;
+                    font-size: 1.5rem;
+
+                    span {
+                      color: var(--color-gray-font);
+                                font-size: 0.75rem;
+                                font-weight: 300;
+                    }
+                  }
+
+                  .price {
+                    font-weight: 500;
+                    font-size: 1.6rem;
+                    margin-top: 30px;
+                  }
+
+                    width: 100%;
+                    max-width: 508px;
+                    padding: 30px 0;
+
+                    .description {
+                        margin-top: 20px;
+
+                        .option {
+                          .circle-list {
+                            margin-top: 10px;
+                            list-style-type: disc;
+                            font-weight: 300;
+                          }
+                        }
+                    }
+                  .esc button {
+                    background: var(--color-black);
+                    width: 100px;
+                    height: 30px;
+                    margin-top: 50px;
+                    color: var(--color-white);
+                    font-size: 0.85rem;
+                    border-radius: 3px;
+                  }
+                }
+            }
+        }
+    }
+}
+
+
+
+.slider {
+  max-width: 500px;
+}
+
+.main-image img {
+  height: auto;
+  border-radius: 2px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.thumb {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: border 0.2s;
+}
+
+.thumb:hover,
+.thumb.active {
+  border: 2px solid var(--color-black);
+}
