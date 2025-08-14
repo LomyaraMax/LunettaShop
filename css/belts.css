@@ -22,4 +22,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 :root { --color-black: #000; --color-white: #fff; --color-gray: #e0e0e0; --color-gray-font: #A9A9A9; --color-red: #FF4545; --color-hover: #333; --color-blue: #458FFF; }
 
+.wrapper main .catigories_list .mg_container .active { opacity: 1 !important; }
+
 .wrapper main .error { text-align: center; }
