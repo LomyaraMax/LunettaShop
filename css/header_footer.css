@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* Обнуляющий стиль (CSS Reset) */
+* { font-family: 'Open Sans'; }
+
+*, *::before, *::after { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html, body { height: 100%; font-family: sans-serif; line-height: 1.5; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+body { background-color: #fff; color: #000; }
+
+img, picture, video, canvas, svg { display: block; max-width: 100%; height: auto; }
+
+input, button, textarea, select { font: inherit; color: inherit; background: none; border: none; outline: none; }
+
+button { cursor: pointer; }
+
+a { text-decoration: none; color: inherit; }
+
+ul, ol { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+:root { --color-black: #000; --color-white: #fff; --color-gray: #e0e0e0; --color-gray-font: #A9A9A9; --color-red: #FF4545; --color-hover: #333; --color-blue: #458FFF; }
+
+.header { padding: 15px 150px; position: -webkit-sticky; position: sticky; top: 0; z-index: 1000; border-bottom: solid 2px var(--color-gray); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(80px); }
+
+.header nav { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.header nav .logo { width: 130px; min-height: 20px; background: var(--color-black); padding: 3px; text-align: center; }
+
+.header nav .logo span { color: var(--color-white); letter-spacing: 0.3rem; }
+
+.header nav ul { display: -webkit-box; display: -ms-flexbox; display: flex; gap: 2.5rem; }
+
+.header nav ul li a:hover { color: var(--color-red); }
+
+.footer { background: var(--color-black); padding: 15px 150px; }
+
+.footer nav ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; gap: 1.5rem; }
+
+.footer nav ul a { color: var(--color-white); }
+
+.footer nav ul .footer_nav { display: -webkit-box; display: -ms-flexbox; display: flex; gap: 2.5rem; }

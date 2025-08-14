@@ -1,0 +1,30 @@
+@media  (max-width: 1025px) {
+
+    .main .catalog {
+        padding-bottom: 20px;
+    }
+
+    .slider_controls  {
+        display: none !important;
+    }
+
+    header, .main .container, footer {
+        padding: 3px 5px!important;
+    }
+}
+
+@media (max-width: 420px) {
+    .header nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 877px) {
+    
+    .footer nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}

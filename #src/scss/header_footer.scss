@@ -1,0 +1,69 @@
+@import "nyllStyle.scss";
+
+.header {
+    padding:  15px 150px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: solid 2px var(--color-gray);
+    backdrop-filter: blur(10px);           
+    -webkit-backdrop-filter: blur(80px);
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            width: 130px;
+            min-height: 20px;
+            background: var(--color-black);
+            padding: 3px;
+            text-align: center;
+
+            span {
+                color: var(--color-white);
+                letter-spacing: 0.3rem;
+            }
+        }
+
+        ul {
+            display: flex;
+            gap: 2.5rem;
+
+            li {
+                
+                a {
+                    &:hover {
+                        color: var(--color-red);
+                    }
+                }
+            }
+        }
+    }
+    
+
+    }
+
+.footer {
+    background: var(--color-black);
+    padding: 15px 150px;
+
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            a {
+                color: var(--color-white);
+            }
+
+            .footer_nav {
+                display: flex;
+                gap: 2.5rem;
+            }
+        }
+    }
+    
+}
+

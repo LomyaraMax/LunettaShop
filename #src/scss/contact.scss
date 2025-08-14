@@ -1,0 +1,52 @@
+.main_contact   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact {
+        .container {
+            max-width: 500px;
+
+            .text {
+
+                p {
+                    margin-top: 1rem;
+                }
+                a {
+                    color: #000;
+                    text-decoration: underline;
+                    font-weight: 500;
+                }
+            }
+
+            .icon_contact {
+                margin-top: 5rem;
+                display: flex;
+                justify-content: center;
+                gap: 4.5rem;
+            }
+
+            // оплата доставка
+
+            .title_delivery {
+                text-align: center;
+                border-bottom: solid 1px var(--color-black);
+                padding-bottom: 20px;
+            }
+
+            .delivery_list {
+                list-style-type: disc;
+                border-bottom: solid 1px var(--color-black);
+                padding-bottom: 20px;
+            }
+
+            .botom_list {
+                margin-top: 20px;
+
+                span {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

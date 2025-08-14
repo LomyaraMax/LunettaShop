@@ -1,0 +1,7 @@
+@media (max-width: 1025px) { .main .catalog { padding-bottom: 20px; }
+  .slider_controls { display: none !important; }
+  header, .main .container, footer { padding: 3px 5px !important; } }
+
+@media (max-width: 420px) { .header nav { -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; gap: 1rem; } }
+
+@media (max-width: 877px) { .footer nav ul { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } }
