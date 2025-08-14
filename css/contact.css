@@ -1,0 +1,17 @@
+.main_contact { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.main_contact .contact .container { max-width: 500px; }
+
+.main_contact .contact .container .text p { margin-top: 1rem; }
+
+.main_contact .contact .container .text a { color: #000; text-decoration: underline; font-weight: 500; }
+
+.main_contact .contact .container .icon_contact { margin-top: 5rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; gap: 4.5rem; }
+
+.main_contact .contact .container .title_delivery { text-align: center; border-bottom: solid 1px var(--color-black); padding-bottom: 20px; }
+
+.main_contact .contact .container .delivery_list { list-style-type: disc; border-bottom: solid 1px var(--color-black); padding-bottom: 20px; }
+
+.main_contact .contact .container .botom_list { margin-top: 20px; }
+
+.main_contact .contact .container .botom_list span { font-weight: 600; }
