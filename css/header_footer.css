@@ -24,6 +24,10 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .header { padding: 15px 150px; position: -webkit-sticky; position: sticky; top: 0; z-index: 1000; border-bottom: solid 2px var(--color-gray); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(80px); }
 
+.header .backet { position: relative; display: inline-block; }
+
+.header .cart-count { position: absolute; top: -6px; right: -8px; background: red; color: white; font-size: 12px; font-weight: bold; border-radius: 50%; padding: 2px 6px; min-width: 18px; height: 18px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
 .header nav { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
 .header nav .logo { width: 130px; min-height: 20px; background: var(--color-black); padding: 3px; text-align: center; }
